@@ -5,6 +5,7 @@ using System.Data;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 [RequireComponent(typeof(CanvasGroup))]
@@ -32,6 +33,9 @@ public class CanvasScreen: MonoBehaviour
     public CanvasGroup canvasgroup;
     [SerializeField] protected ScreenData data;
     public List<LocalizationText> localizationTexts = new List<LocalizationText>();
+
+    public UnityEvent onTurnOn;
+    public UnityEvent onTurnOff;
     public virtual void OnValidate()
     {
         if (canvasgroup == null)
@@ -153,11 +157,13 @@ public class CanvasScreen: MonoBehaviour
         canvasgroup.alpha = 1;
         canvasgroup.interactable = true;
         canvasgroup.blocksRaycasts = true;
+        onTurnOn?.Invoke();
     }
     public virtual void TurnOff()
     {
         canvasgroup.alpha = 0;
         canvasgroup.interactable = false;
+        onTurnOff?.Invoke();
         canvasgroup.blocksRaycasts = false;
     }
     public bool IsOn()

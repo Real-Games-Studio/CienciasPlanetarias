@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -53,7 +54,7 @@ public class LocalizationManager : MonoBehaviour
         PlayerPrefs.SetString("lang", lang);
         LoadLanguage(lang);
         OnLanguageChanged?.Invoke();
-        
+        MainEvents.OnChanceLanguage?.Invoke();
     }
 
     public string Get(string key)
@@ -119,26 +120,141 @@ public class LocalizationManager : MonoBehaviour
     // Helper para converter JSON simples em Dictionary
     private static Dictionary<string, string> SimpleJsonToDictionary(string json)
     {
-        var dict = new Dictionary<string, string>();
-        // Remove chaves externas e espaços
-        json = json.Trim();
-        if (json.StartsWith("{")) json = json.Substring(1);
-        if (json.EndsWith("}")) json = json.Substring(0, json.Length - 1);
-        // Separa por vírgula, ignora linhas vazias
-        var lines = json.Split(',');
-        foreach (var line in lines)
+        if (string.IsNullOrWhiteSpace(json)) return new Dictionary<string, string>();
+
+        int index = 0;
+        int length = json.Length;
+
+        void SkipWhitespace()
         {
-            var pair = line.Split(new[] { ':' }, 2);
-            if (pair.Length == 2)
+            while (index < length && char.IsWhiteSpace(json[index]))
             {
-                var key = pair[0].Trim().Trim('"');
-                var value = pair[1].Trim().Trim('"');
-                // Remove possíveis aspas extras
-                if (value.StartsWith("\"") && value.EndsWith("\""))
-                    value = value.Substring(1, value.Length - 2);
-                dict[key] = value;
+                index++;
             }
         }
+
+        string ParseString()
+        {
+            if (index >= length || json[index] != '"') throw new FormatException("Expected '\"' at position " + index);
+            index++; // skip opening quote
+            var sb = new StringBuilder();
+            while (index < length)
+            {
+                char c = json[index++];
+                if (c == '"')
+                {
+                    return sb.ToString();
+                }
+                if (c == '\\')
+                {
+                    if (index >= length) throw new FormatException("Invalid escape sequence at end of string.");
+                    char esc = json[index++];
+                    switch (esc)
+                    {
+                        case '\\': sb.Append('\\'); break;
+                        case '"': sb.Append('"'); break;
+                        case '/': sb.Append('/'); break;
+                        case 'b': sb.Append('\b'); break;
+                        case 'f': sb.Append('\f'); break;
+                        case 'n': sb.Append('\n'); break;
+                        case 'r': sb.Append('\r'); break;
+                        case 't': sb.Append('\t'); break;
+                        case 'u':
+                            if (index + 4 > length) throw new FormatException("Incomplete unicode escape.");
+                            string hex = json.Substring(index, 4);
+                            if (!ushort.TryParse(hex, System.Globalization.NumberStyles.HexNumber, System.Globalization.CultureInfo.InvariantCulture, out var code))
+                            {
+                                throw new FormatException("Invalid unicode escape: \\u" + hex);
+                            }
+                            sb.Append((char)code);
+                            index += 4;
+                            break;
+                        default:
+                            throw new FormatException("Invalid escape character: \\" + esc);
+                    }
+                }
+                else
+                {
+                    sb.Append(c);
+                }
+            }
+            throw new FormatException("Unterminated string literal.");
+        }
+
+        var dict = new Dictionary<string, string>();
+
+        SkipWhitespace();
+        if (index < length && json[index] == '{')
+        {
+            index++;
+        }
+        else
+        {
+            throw new FormatException("JSON must start with '{'.");
+        }
+
+        while (true)
+        {
+            SkipWhitespace();
+            if (index < length && json[index] == '}')
+            {
+                index++;
+                break;
+            }
+
+            string key = ParseString();
+
+            SkipWhitespace();
+            if (index >= length || json[index] != ':')
+            {
+                throw new FormatException("Expected ':' after key \"" + key + "\".");
+            }
+            index++; // skip colon
+
+            SkipWhitespace();
+
+            string value;
+            if (index < length && json[index] == '"')
+            {
+                value = ParseString();
+            }
+            else
+            {
+                // Accept non-string values as raw until comma or end.
+                var sb = new StringBuilder();
+                while (index < length && json[index] != ',' && json[index] != '}')
+                {
+                    sb.Append(json[index++]);
+                }
+                value = sb.ToString().Trim();
+            }
+
+            dict[key] = value;
+
+            SkipWhitespace();
+            if (index < length && json[index] == ',')
+            {
+                index++;
+                continue;
+            }
+            if (index < length && json[index] == '}')
+            {
+                index++;
+                break;
+            }
+            SkipWhitespace();
+            if (index < length && json[index] == '}')
+            {
+                index++;
+                break;
+            }
+            if (index >= length)
+            {
+                break;
+            }
+            throw new FormatException("Unexpected character at position " + index + ": " + json[index]);
+        }
+
         return dict;
     }
 }
