@@ -779,7 +779,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: canada
+          m_StringArgument: screen_australia
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &58888437
@@ -1198,7 +1198,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mexico
+          m_StringArgument: screen_mexico
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &63673139
@@ -1347,7 +1347,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: brasil
+          m_StringArgument: screen_marDoNorte
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &67591598
@@ -1496,7 +1496,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: eua
+          m_StringArgument: screen_quenia
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &69710339
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CANAD\xC1 - REINTRODU\xC7AO DE LONTRAS-MARINHAS NAS FLORESTAS DE KELPS"
+  m_text: screen_eua_Subtitle
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7b6b2d198212fea46af9915111c001cb, type: 2}
   m_sharedMaterial: {fileID: 3775700307394576223, guid: 7b6b2d198212fea46af9915111c001cb, type: 2}
@@ -2914,7 +2914,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: canada
+          m_StringArgument: screen_bangladesh
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &162592126
@@ -3628,7 +3628,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: screen_eua_legenda
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed249c901d9ad464490e905da632eadb, type: 2}
   m_sharedMaterial: {fileID: -3069143947568972164, guid: ed249c901d9ad464490e905da632eadb, type: 2}
@@ -3655,7 +3655,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
+  m_fontSize: 38.4
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3852,7 +3852,7 @@ PrefabInstance:
     - target: {fileID: 7584220018375869738, guid: 264e55eea17aa3b40994041d7c5308d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 710358017}
+      objectReference: {fileID: 0}
     - target: {fileID: 7584220018375869738, guid: 264e55eea17aa3b40994041d7c5308d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4324,7 +4324,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mexico
+          m_StringArgument: screen_china
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &244188719
@@ -4850,7 +4850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasScreen
   canvasgroup: {fileID: 280714293}
   data:
-    screenName: Asia
+    screenName: asia
     previusScreenName: 
     nextScreenName: 
     editor_turnOn: 0
@@ -5362,7 +5362,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: canada
+          m_StringArgument: screen_reinoUnido
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &342578163
@@ -5511,7 +5511,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 04
+          m_StringArgument: oceania
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &343021454
@@ -7096,7 +7096,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 710358017}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CanvasScreen, Assembly-CSharp
         m_MethodName: CallScreenByName
         m_Mode: 5
@@ -7465,7 +7465,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: America
+          m_StringArgument: america
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &498025729
@@ -10371,7 +10371,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: brasil
+          m_StringArgument: screen_indonesia
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &697196028
@@ -10556,10 +10556,9 @@ GameObject:
   m_Component:
   - component: {fileID: 710358016}
   - component: {fileID: 710358018}
-  - component: {fileID: 710358017}
   - component: {fileID: 710358019}
   m_Layer: 5
-  m_Name: 06_Americas Focado
+  m_Name: 06_Paises
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10579,6 +10578,10 @@ RectTransform:
   m_Children:
   - {fileID: 1595608145}
   - {fileID: 1993832770}
+  - {fileID: 1007942091}
+  - {fileID: 1149151740}
+  - {fileID: 1609266791}
+  - {fileID: 1858362692}
   - {fileID: 786309140}
   - {fileID: 1944049219}
   - {fileID: 196513398}
@@ -10599,48 +10602,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &710358017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710358015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37b2d71a85dcd94ab4787caa891f5d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CanvasScreen
-  canvasgroup: {fileID: 710358018}
-  data:
-    screenName: AmericaFocado
-    previusScreenName: 
-    nextScreenName: 
-    editor_turnOn: 0
-    editor_turnOff: 0
-  localizationTexts:
-  - key: screen_6_title
-    textField: {fileID: 604943329}
-  - key: continente_Americas
-    textField: {fileID: 92960230}
-  - key: pais_canada
-    textField: {fileID: 1512022577}
-  - key: pais_eua
-    textField: {fileID: 2072396246}
-  - key: pais_mexico
-    textField: {fileID: 1543461720}
-  - key: pais_brasil
-    textField: {fileID: 796792449}
-  - key: pais_urugaui
-    textField: {fileID: 1197269176}
-  - key: continente_Europe
-    textField: {fileID: 364723241}
-  onTurnOn:
-    m_PersistentCalls:
-      m_Calls: []
-  onTurnOff:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!225 &710358018
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -10649,9 +10610,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710358015}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &710358019
 MonoBehaviour:
@@ -10667,7 +10628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   canvasgroup: {fileID: 710358018}
   data:
-    screenName: Focado
+    screenName: 
     previusScreenName: 
     nextScreenName: 
     editor_turnOn: 0
@@ -10679,6 +10640,46 @@ MonoBehaviour:
   onTurnOff:
     m_PersistentCalls:
       m_Calls: []
+  subtitleText: {fileID: 92960230}
+  descriptionText: {fileID: 1580952844}
+  legendText: {fileID: 194473303}
+  continents:
+  - continentName: americas
+    backgroundImage: {fileID: 1993832769}
+    countryScreens:
+    - screen_eua
+    - screen_mexico
+    - screen_canada
+    - screen_brasil
+    - screen_uruguai
+  - continentName: africa
+    backgroundImage: {fileID: 1149151739}
+    countryScreens:
+    - screen_uganda
+    - screen_tanzania
+    - screen_quenia
+    - screen_africaSubsariana
+  - continentName: europa
+    backgroundImage: {fileID: 1007942090}
+    countryScreens:
+    - screen_reinoUnido
+    - screen_noruega
+    - screen_paisesBaixos
+    - screen_dinamarca
+    - screen_marDoNorte
+  - continentName: asia
+    backgroundImage: {fileID: 1609266790}
+    countryScreens:
+    - screen_bangladesh
+    - screen_india
+    - screen_china
+    - screen_indonesia
+  - continentName: oceania
+    backgroundImage: {fileID: 1858362691}
+    countryScreens:
+    - screen_australia
+    - screen_ilhasDoPacifico
+  defaultCountryScreen: 
 --- !u!1 &717207237
 GameObject:
   m_ObjectHideFlags: 0
@@ -11528,7 +11529,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 04
+          m_StringArgument: africa
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &770268520
@@ -11755,7 +11756,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mexico
+          m_StringArgument: screen_dinamarca
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &785610212
@@ -12542,7 +12543,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: brasil
+          m_StringArgument: screen_brasil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &873681717
@@ -12886,11 +12887,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 397.77002
+      value: 297.77002
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 206.78
+      value: 156.78
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13288,7 +13289,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: uruguai
+          m_StringArgument: screen_uruguai
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &992180129
@@ -13393,7 +13394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasScreen
   canvasgroup: {fileID: 995848052}
   data:
-    screenName: America
+    screenName: america
     previusScreenName: 
     nextScreenName: 
     editor_turnOn: 0
@@ -13541,7 +13542,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: canada
+          m_StringArgument: screen_uganda
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1002370953
@@ -13593,6 +13594,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!1 &1007942090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007942091}
+  - component: {fileID: 1007942093}
+  - component: {fileID: 1007942092}
+  m_Layer: 5
+  m_Name: Background_Europa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1007942091
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007942090}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710358016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1007942092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007942090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0e4866b487ff170498be055777255198, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1007942093
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007942090}
+  m_CullTransparentMesh: 1
 --- !u!4 &1048591630 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3656247444290582131, guid: 93cabc1a3eb61a44abd3c1579432e642, type: 3}
@@ -14552,6 +14628,81 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6373800723039120861, guid: 81d46352a5000114e8aa5035ebb82a43, type: 3}
   m_PrefabInstance: {fileID: 1104505955}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1149151739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149151740}
+  - component: {fileID: 1149151742}
+  - component: {fileID: 1149151741}
+  m_Layer: 5
+  m_Name: Background_Africa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1149151740
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149151739}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710358016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1149151741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149151739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0e4866b487ff170498be055777255198, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1149151742
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149151739}
+  m_CullTransparentMesh: 1
 --- !u!1 &1152348676
 GameObject:
   m_ObjectHideFlags: 0
@@ -14660,7 +14811,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: eua
+          m_StringArgument: screen_eua
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1152348680
@@ -15022,7 +15173,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: canada
+          m_StringArgument: screen_canada
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1165141102
@@ -16266,7 +16417,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 710358017}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CanvasScreen, Assembly-CSharp
         m_MethodName: CallScreenByName
         m_Mode: 5
@@ -16680,7 +16831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasScreen
   canvasgroup: {fileID: 1281670441}
   data:
-    screenName: Europa
+    screenName: europa
     previusScreenName: 
     nextScreenName: 
     editor_turnOn: 0
@@ -16718,9 +16869,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281670438}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1297459155
 GameObject:
@@ -16821,7 +16972,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 710358017}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CanvasScreen, Assembly-CSharp
         m_MethodName: CallScreenByName
         m_Mode: 5
@@ -17816,7 +17967,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 710358017}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CanvasScreen, Assembly-CSharp
         m_MethodName: CallScreenByName
         m_Mode: 5
@@ -18498,7 +18649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasScreen
   canvasgroup: {fileID: 1473695091}
   data:
-    screenName: Africa
+    screenName: africa
     previusScreenName: 
     nextScreenName: 
     editor_turnOn: 0
@@ -18871,11 +19022,11 @@ RectTransform:
   - {fileID: 1641757760}
   - {fileID: 57788921}
   - {fileID: 995848050}
-  - {fileID: 710358016}
   - {fileID: 1281670439}
   - {fileID: 1473695089}
   - {fileID: 280714291}
   - {fileID: 1563383248}
+  - {fileID: 710358016}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -19879,7 +20030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasScreen
   canvasgroup: {fileID: 1563383250}
   data:
-    screenName: Oceania
+    screenName: oceania
     previusScreenName: 
     nextScreenName: 
     editor_turnOn: 0
@@ -20150,7 +20301,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ...
+  m_text: screen_eua_description
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed249c901d9ad464490e905da632eadb, type: 2}
   m_sharedMaterial: {fileID: -3069143947568972164, guid: ed249c901d9ad464490e905da632eadb, type: 2}
@@ -20856,6 +21007,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595608144}
   m_CullTransparentMesh: 1
+--- !u!1 &1609266790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609266791}
+  - component: {fileID: 1609266793}
+  - component: {fileID: 1609266792}
+  m_Layer: 5
+  m_Name: Background_Asia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1609266791
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609266790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710358016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1609266792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609266790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0e4866b487ff170498be055777255198, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1609266793
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609266790}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1620594171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21359,7 +21585,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: brasil
+          m_StringArgument: screen_africaSubsariana
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1644455046
@@ -22900,7 +23126,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: eua
+          m_StringArgument: screen_ilhasDoPacifico
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1755465675
@@ -24389,7 +24615,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 710358017}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CanvasScreen, Assembly-CSharp
         m_MethodName: CallScreenByName
         m_Mode: 5
@@ -24438,6 +24664,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842333277}
+  m_CullTransparentMesh: 1
+--- !u!1 &1858362691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1858362692}
+  - component: {fileID: 1858362694}
+  - component: {fileID: 1858362693}
+  m_Layer: 5
+  m_Name: Background_Oceania
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1858362692
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858362691}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710358016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1858362693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858362691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0e4866b487ff170498be055777255198, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1858362694
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858362691}
   m_CullTransparentMesh: 1
 --- !u!1 &1866968227
 GameObject:
@@ -24622,7 +24923,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mexico
+          m_StringArgument: screen_tanzania
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1895652369
@@ -25679,7 +25980,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 04
+          m_StringArgument: europa
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1960524888
@@ -25828,7 +26129,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 04
+          m_StringArgument: asia
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1987761783
@@ -25961,7 +26262,7 @@ GameObject:
   - component: {fileID: 1993832772}
   - component: {fileID: 1993832771}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Background_Americas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26132,7 +26433,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: eua
+          m_StringArgument: screen_india
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2003207478
@@ -27009,7 +27310,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: eua
+          m_StringArgument: screen_paisesBaixos
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2099488556
@@ -27715,11 +28016,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 670.19
+      value: 570.19
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 166.78
+      value: 136.78
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27992,11 +28293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 397.77002
+      value: 297.77002
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 206.78
+      value: 156.78
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_LocalPosition.x

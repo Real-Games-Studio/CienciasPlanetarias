@@ -13,6 +13,7 @@ public static class ScreenManager
     {
         CallScreen?.Invoke(name);
         currentScreenName = name;
+        Debug.Log("ScreenManager: SetCallScreen to " + name);
     }
 
     public static void TurnOnCanvasGroup(CanvasGroup c)
