@@ -36,7 +36,7 @@ public class ToggleSetLocalization : MonoBehaviour
     
     private void OnToggleValueChanged(bool isOn)
     {
-        Debug.Log("Toggle value changed: " + isOn);
+       // Debug.Log("Toggle value changed: " + isOn);
         if (isOn)
         {
             SetLanguageEN();

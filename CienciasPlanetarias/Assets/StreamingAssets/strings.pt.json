@@ -1,10 +1,62 @@
 {
   "screen_1_startButton": "COMEÇAR",
+  
   "screen_2_tmp00": "ASSISTA\nAO VÍDEO",
   "screen_2_tmp01": "CONHEÇA SOLUÇÕES\nTRANSFORMADORAS",
   "screen_2.video_buttonNext": "DESCUBRA\nSOLUÇÕES TRANSFORMADORAS",
+  
   "screen_3_title": "SOLUÇÕES\nTRANSFORMADORAS",
   "screen_3_btn_entendaConceitos": "ENTENDA OS\nCONCEITOS",
-  "screen_3_description":"Maior desafio do nosso tempo a crise climática impõe um chamado histórico à humanidade: reorientar o desenvolvimento em bases sustentáveis, atuando de forma coordenada, rápida e em escala.\n\nNo contexto da “COP da implementação”, que convoca as nações a transformarem compromissos climáticos em ação efetiva, conheça iniciativas brasileiras e globais que integram ciência, tecnologia e saberes locais para  restabelecer o equilíbrio dos sistemas terrestres.\n\nDos países que deram uma guinada em direção a uma matriz energética limpa a projetos científicos brasileiros que convertem conhecimento de alto nível em transformações concretas na Amazônia, cada exemplo reafirma que ainda há tempo para agir — e que o futuro dependerá da nossa capacidade de multiplicar o que já está dando certo."
+  "screen_3_description":"Maior desafio do nosso tempo, a crise climática impõe um chamado histórico à humanidade: reorientar o desenvolvimento em bases sustentáveis, atuando de forma coordenada, rápida e em escala.\n\nNo contexto da “COP da implementação”, que convoca as nações a transformarem compromissos climáticos em ação efetiva, conheça iniciativas brasileiras e globais que integram ciência, tecnologia e saberes locais para  restabelecer o equilíbrio dos sistemas terrestres.\n\nDos países que deram uma guinada em direção a uma matriz energética limpa a projetos científicos brasileiros que convertem conhecimento de alto nível em transformações concretas na Amazônia, cada exemplo reafirma que ainda há tempo para agir — e que o futuro dependerá da nossa capacidade de multiplicar o que já está dando certo.",
+  
+  "screen_4_title": "ENTENDA OS CONCEITOS",
+  "screen_4_subtitle": "Termos essenciais para compreender a crise climática",
+  "screen_4_description":"Os sistemas naturais e sociais da Terra estão profundamente interconectados. Assim como perturbações podem gerar efeitos em cascata de degradação, ações coordenadas podem desencadear ciclos virtuosos de regeneração.\nAutores do conceito de TIPPING POINTS (pontos de inflexão que aceleram a crise climática), pesquisadores da Universidade de Exeter, no Reino Unido, estão agora identificando fontes de esperança. São os POSITIVE TIPPING POINTS (pontos de inflexão positivos), também chamadas de ALAVANCAS PARA MUDANÇAS TRANSFORMADORAS: iniciativas que aceleram transformações desejáveis, como a expansão de energias renováveis, a restauração de ecossistemas e o fortalecimento de bioeconomias inclusivas.\nEssas dinâmicas são impulsionadas por políticas, tecnologias, mecanismos estratégicos e práticas sociais que, quando alinhados, multiplicam seus efeitos e ampliam a resiliência dos sistemas terrestres.",
+  "screen_4_btn_alavancas": "ALAVANCAS PARA MUDANÇAS\nTRANSFORMADORAS",
+  "screen_4_btn_solucoes": "SOLUÇÕES CLIMÁTICAS\nAO REDOR DO PLANETA",
 
+  "screen_5_title": "ENTENDA OS CONCEITOS",
+  "screen_5_subtitle": "ALAVANCAS PARA MUDANÇAS TRANSFORMADORAS",
+  "screen_5_description":"Aguardando conteúdo.",
+  "screen_5_btn_pontosDeInflexao": "PONTOS DE\nINFLEXÃO",
+
+  "screen_6_title": "SOLUÇÕES CLIMÁTICAS AO REDOR DO PLANETA",
+  "screen_6_description":"Aguardando conteúdo.",
+  
+  "screen_canada_Subtitle": "CANADÁ - REINTRODUÇÃO DE LONTRAS-MARINHAS NAS FLORESTAS KELPS",
+  "screen_canada_description": "<b>REALIZADORES:</b> Governo do Canadá, pesquisadores locais e comunidades indígenas\n<b>INTERVENÇÃO:</b> Após quase serem extintas no século XIX pela caça intensiva, as lontras-marinhas (Enhydra lutris) foram reintroduzidas na costa do Pacífico a partir da década de 1960. Os esforços envolveram o transporte de dezenas de indivíduos vindos do Alasca e a colaboração entre cientistas e povos indígenas, que desempenharam papel central na restauração ecológica e cultural dessa espécie. Além da reintrodução, políticas de proteção marinha e monitoramento contínuo ajudaram a recuperar as populações e os habitats costeiros.\n<b>RESULTADOS:</b> O retorno das lontras teve impacto profundo nos ecossistemas litorâneos. Ao se alimentarem de ouriços-do-mar — que, sem predadores, devastavam as florestas de algas —, elas permitiram que os kelps, um tipo de alga, voltassem a crescer, criando refúgio e alimento para várias espécies. A restauração das florestas submarinas aumentou a produtividade e a biodiversidade, beneficiando a pesca e a captura de carbono. A reaproximação com as comunidades indígenas tornou-se um exemplo de recuperação ecológica aliada à valorização cultural.",
+  "screen_canada_legenda": "Lontra boiando em floresta de kelps na Columbia Britânica, Canadá Crédito: Shutterstock\nID: 2348709365\n\n",
+
+
+  "screen_uruguai_Subtitle": "URUGUAI - TRANSIÇÃO PARA UMA MATRIZ ENERGÉTICA LIMPA",
+  "screen_uruguai_description": "<b>REALIZADORES:</b> Governo do Canadá, pesquisadores locais e comunidades indígenas\n<b>INTERVENÇÃO:</b> Após quase serem extintas no século XIX pela caça intensiva, as lontras-marinhas (Enhydra lutris) foram reintroduzidas na costa do Pacífico a partir da década de 1960. Os esforços envolveram o transporte de dezenas de indivíduos vindos do Alasca e a colaboração entre cientistas e povos indígenas, que desempenharam papel central na restauração ecológica e cultural dessa espécie. Além da reintrodução, políticas de proteção marinha e monitoramento contínuo ajudaram a recuperar as populações e os habitats costeiros.\n<b>RESULTADOS:</b> O retorno das lontras teve impacto profundo nos ecossistemas litorâneos. Ao se alimentarem de ouriços-do-mar — que, sem predadores, devastavam as florestas de algas —, elas permitiram que os kelps, um tipo de alga, voltassem a crescer, criando refúgio e alimento para várias espécies. A restauração das florestas submarinas aumentou a produtividade e a biodiversidade, beneficiando a pesca e a captura de carbono. A reaproximação com as comunidades indígenas tornou-se um exemplo de recuperação ecológica aliada à valorização cultural.",
+  "screen_uruguai_legenda": "Lontra boiando em floresta de kelps na Columbia Britânica, Canadá Crédito: Shutterstock\nID: 2348709365\n\n",
+
+
+  "continente_Africa": "ÁFRICA",
+  "continente_Americas": "AMÉRICAS",
+  "continente_Asia": "ÁSIA",
+  "continente_Europe": "EUROPA",
+  "continente_Oceania": "OCEANIA",
+
+  "pais_canada": "CANADÁ",
+  "pais_eua": "EUA",
+  "pais_mexico": "MÉXICO",
+  "pais_brasil": "BRASIL",
+  "pais_urugaui": "URUGUAI",
+  "pais_reinoUnido": "REINO UNIDO",
+  "pais_noruega": "NORUEGA",
+  "pais_paisesBaixos": "PAÍSES BAIXOS",
+  "pais_dinamarca": "DINAMARCA",
+  "pais_marDoNorte": "MAR DO NORTE",
+  "pais_bangladesh": "BANGLADESH",
+  "pais_india": "ÍNDIA",
+  "pais_china": "CHINA",
+  "pais_indonesia": "INDONÉSIA",
+  "pais_uganda": "UGANDA",
+  "pais_quenia": "QUÊNIA",
+  "pais_tanzania": "TANZÂNIA",
+  "pais_africaSubsariana": "ÁFRICA SUBSARARIANA",
+  "pais_australia": "AUSTRÁLIA",
+  "pais_ilhasDoPacífico": "ILHAS DO PACÍFICO"
 }

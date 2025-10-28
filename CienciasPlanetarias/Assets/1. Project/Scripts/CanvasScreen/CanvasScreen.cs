@@ -43,6 +43,24 @@ public class CanvasScreen: MonoBehaviour
             canvasgroup = GetComponent<CanvasGroup>();
         }
 
+        if(localizationTexts != null && localizationTexts.Count > 0)
+        {
+            foreach (var lt in localizationTexts)
+            {
+                lt.textField.gameObject.name = "LT: " + lt.key;
+
+                // se tiver um parent q seja um botao tbm atualizar o nome para Button LT: key
+                if (lt.textField.transform.parent != null)
+                {
+                    var parentButton = lt.textField.transform.parent.GetComponent<UnityEngine.UI.Button>();
+                    if (parentButton != null)
+                    {
+                        parentButton.gameObject.name = "Button LT: " + lt.key;
+                    }
+                }
+            }
+        }
+
         if (data == null)
         {
             Debug.LogError("ScreenData (data) está nulo no OnValidate.", this);
@@ -132,7 +150,7 @@ public class CanvasScreen: MonoBehaviour
             try
             {
                 lt.textField.text = LocalizationManager.instance.Get(lt.key);
-                Debug.Log("Localized text applied for key: " + lt.key, this);
+                //Debug.Log("Localized text applied for key: " + lt.key, this);
             }
             catch (Exception ex)
             {

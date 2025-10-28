@@ -1,9 +1,50 @@
 {
-  "screen_1_startButton": "START",
+  "screen_1_startButton": "<i>START</i>",
   "screen_2_tmp00": "WATCH\nTHE VIDEO",
   "screen_2_tmp01": "DISCOVER\nTRANSFORMATIVE SOLUTIONS",
   "screen_2.video_buttonNext": "DISCOVER\nTRANSFORMATIVE SOLUTIONS",
   "screen_3_title": "TRANSFORMATIVE\nSOLUTIONS",
   "screen_3_btn_entendaConceitos": "UNDERSTAND\nTHE CONCEPTS",
-  "screen_3_description":"The greatest challenge of our time, the climate crisis issues a historic call to humanity: reorient development on sustainable foundations, acting in a coordinated, rapid, and large-scale way.\n\nIn the context of the \"implementation COP,\" which urges nations to turn climate commitments into concrete action, explore Brazilian and global initiatives that weave together science, technology, and local knowledge to restore the balance of Earth's systems.\n\nFrom countries that have pivoted toward a clean energy mix to Brazilian scientific projects that convert high-level expertise into tangible transformations in the Amazon, each example reinforces that there is still time to act - and that the future will depend on our ability to multiply what is already working."
+  "screen_3_description":"The greatest challenge of our time, the climate crisis issues a historic call to humanity: reorient development on sustainable foundations, acting in a coordinated, rapid, and large-scale way.\n\nIn the context of the \"implementation COP,\" which urges nations to turn climate commitments into concrete action, explore Brazilian and global initiatives that weave together science, technology, and local knowledge to restore the balance of Earth's systems.\n\nFrom countries that have pivoted toward a clean energy mix to Brazilian scientific projects that convert high-level expertise into tangible transformations in the Amazon, each example reinforces that there is still time to act - and that the future will depend on our ability to multiply what is already working.",
+ 
+  "screen_4_title": "UNDERSTAND\nTHE CONCEPTS",
+  "screen_4_subtitle": "Essential terms to understand the climate crisis",
+  "screen_4_description": "The Earth's natural and social systems are deeply interconnected. Just as disturbances can trigger cascading effects of degradation, coordinated actions can spark virtuous cycles of regeneration.\nAuthors of the TIPPING POINTS concept (inflection points that accelerate the climate crisis), researchers at the University of Exeter in the UK are now identifying sources of hope. These are POSITIVE TIPPING POINTS, also called LEVERS FOR TRANSFORMATIVE CHANGE: initiatives that accelerate desirable transformations, such as the expansion of renewable energies, ecosystem restoration, and the strengthening of inclusive bioeconomies.\nThese dynamics are driven by policies, technologies, strategic mechanisms, and social practices that, when aligned, multiply their effects and increase the resilience of Earth's systems.",
+  "screen_4_btn_alavancas": "LEVERS FOR\nTRANSFORMATIVE CHANGE",
+  "screen_4_btn_solucoes": "CLIMATE SOLUTIONS\nAROUND THE PLANET",
+
+  "screen_5_title": "UNDERSTAND THE CONCEPTS",
+  "screen_5_subtitle": "LEVERS FOR TRANSFORMATIVE CHANGE",
+  "screen_5_description": "Content pending.",
+  "screen_5_btn_pontosDeInflexao": "TIPPING\nPOINTS",
+
+  "screen_6_title": "CLIMATE SOLUTIONS AROUND THE PLANET",
+  "screen_6_description": "Content pending.",
+  "continente_Africa": "AFRICA",
+  "continente_Americas": "AMERICAS",
+  "continente_Asia": "ASIA",
+  "continente_Europe": "EUROPE",
+  "continente_Oceania": "OCEANIA",
+
+  "pais_canada": "CANADA",
+  "pais_eua": "USA",
+  "pais_mexico": "MEXICO",
+  "pais_brasil": "BRAZIL",
+  "pais_urugaui": "URUGUAY",
+  "pais_reinoUnido": "UNITED KINGDOM",
+  "pais_noruega": "NORWAY",
+  "pais_paisesBaixos": "NETHERLANDS",
+  "pais_dinamarca": "DENMARK",
+  "pais_marDoNorte": "NORTH SEA",
+  "pais_bangladesh": "BANGLADESH",
+  "pais_india": "INDIA",
+  "pais_china": "CHINA",
+  "pais_indonesia": "INDONESIA",
+  "pais_uganda": "UGANDA",
+  "pais_quenia": "KENYA",
+  "pais_tanzania": "TANZANIA",
+  "pais_africaSubsariana": "SUB-SAHARAN AFRICA",
+  "pais_australia": "AUSTRALIA",
+  "pais_ilhasDoPacífico": "PACIFIC ISLANDS"
+
 }
