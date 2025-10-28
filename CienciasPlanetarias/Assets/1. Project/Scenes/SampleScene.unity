@@ -10557,6 +10557,7 @@ GameObject:
   - component: {fileID: 710358016}
   - component: {fileID: 710358018}
   - component: {fileID: 710358017}
+  - component: {fileID: 710358019}
   m_Layer: 5
   m_Name: 06_Americas Focado
   m_TagString: Untagged
@@ -10652,6 +10653,32 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &710358019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710358015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698428e3e95eb1842974cf895dd62c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  canvasgroup: {fileID: 710358018}
+  data:
+    screenName: Focado
+    previusScreenName: 
+    nextScreenName: 
+    editor_turnOn: 0
+    editor_turnOff: 0
+  localizationTexts: []
+  onTurnOn:
+    m_PersistentCalls:
+      m_Calls: []
+  onTurnOff:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &717207237
 GameObject:
   m_ObjectHideFlags: 0
@@ -12859,11 +12886,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 297.77002
+      value: 397.77002
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 156.78
+      value: 206.78
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27688,11 +27715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 570.19
+      value: 670.19
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 136.78
+      value: 166.78
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27965,11 +27992,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 297.77002
+      value: 397.77002
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 156.78
+      value: 206.78
       objectReference: {fileID: 0}
     - target: {fileID: 2901401399644883904, guid: 749204db8c9d1fa498335499a2acf4cb, type: 3}
       propertyPath: m_LocalPosition.x
