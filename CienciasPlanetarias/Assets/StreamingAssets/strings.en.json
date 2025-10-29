@@ -1,25 +1,128 @@
 {
   "screen_1_startButton": "<i>START</i>",
-  "screen_2_tmp00": "WATCH\nTHE VIDEO",
-  "screen_2_tmp01": "DISCOVER\nTRANSFORMATIVE SOLUTIONS",
-  "screen_2.video_buttonNext": "DISCOVER\nTRANSFORMATIVE SOLUTIONS",
-  "screen_3_title": "TRANSFORMATIVE\nSOLUTIONS",
-  "screen_3_btn_entendaConceitos": "UNDERSTAND\nTHE CONCEPTS",
-  "screen_3_description":"The greatest challenge of our time, the climate crisis issues a historic call to humanity: reorient development on sustainable foundations, acting in a coordinated, rapid, and large-scale way.\n\nIn the context of the \"implementation COP,\" which urges nations to turn climate commitments into concrete action, explore Brazilian and global initiatives that weave together science, technology, and local knowledge to restore the balance of Earth's systems.\n\nFrom countries that have pivoted toward a clean energy mix to Brazilian scientific projects that convert high-level expertise into tangible transformations in the Amazon, each example reinforces that there is still time to act - and that the future will depend on our ability to multiply what is already working.",
- 
-  "screen_4_title": "UNDERSTAND\nTHE CONCEPTS",
-  "screen_4_subtitle": "Essential terms to understand the climate crisis",
-  "screen_4_description": "The Earth's natural and social systems are deeply interconnected. Just as disturbances can trigger cascading effects of degradation, coordinated actions can spark virtuous cycles of regeneration.\nAuthors of the TIPPING POINTS concept (inflection points that accelerate the climate crisis), researchers at the University of Exeter in the UK are now identifying sources of hope. These are POSITIVE TIPPING POINTS, also called LEVERS FOR TRANSFORMATIVE CHANGE: initiatives that accelerate desirable transformations, such as the expansion of renewable energies, ecosystem restoration, and the strengthening of inclusive bioeconomies.\nThese dynamics are driven by policies, technologies, strategic mechanisms, and social practices that, when aligned, multiply their effects and increase the resilience of Earth's systems.",
-  "screen_4_btn_alavancas": "LEVERS FOR\nTRANSFORMATIVE CHANGE",
-  "screen_4_btn_solucoes": "CLIMATE SOLUTIONS\nAROUND THE PLANET",
 
-  "screen_5_title": "UNDERSTAND THE CONCEPTS",
-  "screen_5_subtitle": "LEVERS FOR TRANSFORMATIVE CHANGE",
+  "screen_2_tmp00": "<b>WATCH\nTHE VIDEO</b>",
+  "screen_2_tmp01": "<b>DISCOVER\nTRANSFORMATIVE SOLUTIONS</b>",
+  "screen_2.video_buttonNext": "<b>DISCOVER\nTRANSFORMATIVE SOLUTIONS</b>",
+
+  "screen_3_title": "<b>TRANSFORMATIVE\nSOLUTIONS</b>",
+  "screen_3_btn_entendaConceitos": "<b>UNDERSTAND\nTHE CONCEPTS</b>",
+  "screen_3_description": "The greatest challenge of our time, the climate crisis issues a historic call to humanity: to reorient development on sustainable foundations by acting in a coordinated, fast, and large-scale way.\n\nIn the context of the 'implementation COP', which urges nations to turn climate commitments into effective action, discover Brazilian and global initiatives that integrate science, technology, and local knowledge to restore the balance of Earth's systems.\n\nFrom countries that have shifted toward a clean energy mix to Brazilian scientific projects that convert high-level knowledge into concrete transformations in the Amazon, each example reaffirms that there is still time to act — and that the future will depend on our ability to multiply what is already working.",
+
+  "screen_4_title": "<b>UNDERSTAND THE CONCEPTS</b>",
+  "screen_4_subtitle": "<b>Essential terms to understand the climate crisis</b>",
+  "screen_4_description": "Earth's natural and social systems are deeply interconnected. Just as disturbances can trigger cascading degradation effects, coordinated actions can unleash virtuous cycles of regeneration.\nAuthors of the TIPPING POINTS concept (inflection points that accelerate the climate crisis), researchers at the University of Exeter in the UK are now identifying sources of hope. These are POSITIVE TIPPING POINTS, also called LEVERS FOR TRANSFORMATIVE CHANGE: initiatives that accelerate desirable transformations, such as the expansion of renewable energy, ecosystem restoration, and the strengthening of inclusive bioeconomies.\nThese dynamics are driven by policies, technologies, strategic mechanisms, and social practices that, when aligned, multiply their effects and increase the resilience of Earth's systems.",
+  "screen_4_btn_alavancas": "<b>LEVERS FOR\nTRANSFORMATIVE CHANGE</b>",
+  "screen_4_btn_solucoes": "<b>CLIMATE SOLUTIONS\nAROUND THE PLANET</b>",
+
+  "screen_5_title": "<b>UNDERSTAND THE CONCEPTS</b>",
+  "screen_5_subtitle": "<b>LEVERS FOR TRANSFORMATIVE CHANGE</b>",
   "screen_5_description": "Content pending.",
-  "screen_5_btn_pontosDeInflexao": "TIPPING\nPOINTS",
+  "screen_5_btn_pontosDeInflexao": "<b>TIPPING\nPOINTS</b>",
 
-  "screen_6_title": "CLIMATE SOLUTIONS AROUND THE PLANET",
+  "screen_6_title": "<b>CLIMATE SOLUTIONS AROUND THE PLANET</b>",
   "screen_6_description": "Content pending.",
+
+  "screen_eua_Subtitle": "<b>USA - Reintroduction of wolves in Yellowstone</b>",
+  "screen_eua_imagePath": "Paises/eua.png",
+  "screen_eua_description": "<b>IMPLEMENTERS:</b> U.S. Fish and Wildlife Service, National Park Service, and Canadian researchers.\n\n<b>INTERVENTION:</b> In 1995 and 1996, gray wolves (Canis lupus) captured by researchers in Canada were introduced to Yellowstone National Park after a long absence from the region. Held in acclimation enclosures for a few weeks, they were released to establish new packs. The objective was to restore ecological balance and allow natural predation and cascading processes to reorganize.\n\n<b>RESULTS:</b> The return of wolves reduced elk overpopulation and altered their movement patterns, enabling riparian vegetation to regenerate. This favored the return of other plants and animals, such as willows and beavers, and improved water quality in streams. The ecosystem rebalanced, with increased biodiversity and restoration of natural predation and regeneration processes — a classic example of a trophic cascade.",
+  "screen_eua_legenda": "Gray wolf in Yellowstone National Park (USA)\nCredit: Shutterstock\nID 1704025516",
+
+  "screen_mexico_Subtitle": "<b>MEXICO - Reuse of seaweed biomass</b>",
+  "screen_mexico_imagePath": "Paises/mexico.png",
+  "screen_mexico_description": "<b>IMPLEMENTERS:</b> University of Exeter in partnership with the Universidad Autónoma de Baja California and the Mexican company Biorganix.\n\n<b>INTERVENTION:</b> On Mexico's Caribbean coast, the annual accumulation of large quantities of Sargassum seaweed — caused by global warming and marine eutrophication — became an emergency in 2019, when around 1 million tons were expected to land on beaches. The project collects this problematic biomass and converts it, through hydrothermal processing and carbonization techniques, into a low-cost agricultural fertilizer and other value-added products.\n\n<b>RESULTS:</b> Besides reducing coastal and tourism impacts, the project provides an income source for local communities and improves agricultural productivity. The process is still at industrial-scale development, but points to a solution that connects ecological recovery, technological innovation, and food security.",
+  "screen_mexico_legenda": "Person clearing sargassum on Playa del Carmen, Mexico\nCredit: Shutterstock\nID: 2290466069",
+
+  "screen_canada_Subtitle": "<b>CANADA - Reintroduction of sea otters in kelp forests</b>",
+  "screen_canada_imagePath": "Paises/canada.png",
+  "screen_canada_description": "<b>IMPLEMENTERS:</b> Government of Canada, local researchers, and Indigenous communities.\n\n<b>INTERVENTION:</b> Almost driven to extinction in the 19th century by intensive hunting, sea otters (Enhydra lutris) were reintroduced to the Pacific coast starting in the 1960s. Efforts involved translocating dozens of individuals from Alaska and collaboration between scientists and Indigenous peoples, who played a central role in the ecological and cultural restoration of the species. Alongside reintroduction, marine protection policies and continuous monitoring helped recover populations and habitats.\n\n<b>RESULTS:</b> The return of otters had a profound impact on coastal ecosystems. By preying on sea urchins — which, without predators, devour kelp forests — they allowed kelp to regrow, creating habitat and food for many species. The restoration of underwater forests increased productivity and biodiversity, benefiting fisheries and carbon capture. The reconnection with Indigenous communities became an example of ecological recovery tied to cultural revitalization.",
+  "screen_canada_legenda": "Otter floating in a kelp forest in British Columbia, Canada\nCredit: Shutterstock\nID: 2348709365",
+
+  "screen_uruguai_Subtitle": "<b>URUGUAY - Transition to a clean energy mix</b>",
+  "screen_uruguai_imagePath": "Paises/uruguai.png",
+  "screen_uruguai_description": "<b>IMPLEMENTERS:</b> Government of Uruguay, UTE (Administración Nacional de Usinas y Transmisiones Eléctricas), and international private investors.\n\n<b>INTERVENTION:</b> Lacking significant fossil fuel reserves, Uruguay faced strong dependence on imports and thermal plants. In the mid-2000s the country changed course by defining a new energy policy: the state utility UTE retained ownership of the transmission network while the government opened long-term concessions for private companies to build wind and solar plants. By leveraging its favorable geography, with steady winds and rivers, Uruguay developed wind and solar parks at scale supported by strong regulation, political consensus, and public–private partnerships.\n\n<b>RESULTS:</b> The country now generates 99% of its electricity from renewable sources and has virtually eliminated oil import dependence. Carbon dioxide emissions fell by 90% compared to 2023, reaching their lowest level in two decades, and the grid's CO₂ emission factor is just 6 tons per gigawatt-hour — among the cleanest in the world. The transition created 50,000 jobs, about 3% of Uruguay's workforce.",
+  "screen_uruguai_legenda": "Wind farm in Colonia, Uruguay\nCredit: Shutterstock\nID: 2150178987",
+
+  "screen_brasil_Subtitle": "<b>BRAZIL - Creative Laboratories of the Amazon (LCA)</b>",
+  "screen_brasil_imagePath": "Paises/brasil.png",
+  "screen_brasil_description": "<b>IMPLEMENTER:</b> Instituto Amazônia 4.0.\n\n<b>INTERVENTION:</b> The Creative Laboratories of the Amazon (LCAs) are mobile biofactories installed in Amazon communities to put the forest-based bioeconomy concept into practice. The idea is to train producers and create real alternatives to deforestation by turning Amazonian inputs into high-value products. With an initial focus on cocoa and cupuaçu value chains, the laboratory trains residents to process raw materials locally, producing chocolate and cupulate (cupuaçu chocolate) with traceability and advanced technologies such as blockchain to track origin. The structure includes solar power, Wi‑Fi connectivity, sensors, and spaces dedicated to fermentation, roasting, grinding, and community training.\n\n<b>RESULTS:</b> By combining traditional forest knowledge with science and Industry 4.0 technologies, LCAs enable the shift from selling raw nuts at low value to offering high-value finished products (gourmet chocolate). Communities that previously sold nuts at around BRL 10 per kilo have managed to offer products for BRL 200 per kilo with locally produced chocolate. The project is at pilot scale and is expected to operate at greater scale and be replicated in more communities.",
+  "screen_brasil_legenda": "Chocolate production in a Surucuá 4.0 biofactory\nCredit: Amazônia 4.0",
+
+  "screen_reinoUnido_Subtitle": "<b>UNITED KINGDOM - End of coal in power generation</b>",
+  "screen_reinoUnido_imagePath": "Paises/reinoUnido.png",
+  "screen_reinoUnido_description": "<b>IMPLEMENTERS:</b> UK government, environmental regulators, carbon market bodies, and the private power sector.\n\n<b>INTERVENTION:</b> To end an era dominated by coal — the fuel that sustained Britain’s Industrial Revolution — the UK adopted a multifaceted, accelerated strategy to eliminate coal from power generation. Policies included legislative targets (such as the Climate Change Act 2008), strengthened carbon pricing mechanisms, renewable auctions, systematic coal plant closures, and replacement with wind, solar, and low-/zero-carbon sources. In September 2024 the country shut down its last coal-fired power station.\n\n<b>RESULTS:</b> Coal's share of the power mix fell from 39% in 2012 to practically zero in 2024. The UK became the first G7 country to eliminate coal-fired electricity. Power-sector CO₂ emissions fell by about 74% between 2012 and 2023, and the transition enabled international sharing of lessons through initiatives like the Powering Past Coal Alliance.",
+  "screen_reinoUnido_legenda": "Ratcliffe-on-Soar power station, the last coal plant to be closed in the UK\nCredit: Shutterstock\nID: 2245588863",
+
+  "screen_noruega_Subtitle": "<b>NORWAY - Electric mobility as state policy</b>",
+  "screen_noruega_imagePath": "Paises/noruega.png",
+  "screen_noruega_description": "<b>IMPLEMENTERS:</b> Norwegian government and the national association of electric vehicle users.\n\n<b>INTERVENTION:</b> Since the 1990s/2000s Norway has implemented ambitious incentives for electric vehicles (EVs) to phase out internal combustion cars. Measures included import- and VAT-exemptions for EVs, privileged access to bus lanes, reduced tolls and ferry fees, lower parking charges, and higher taxes on combustion vehicles. The policy is complemented by a high share of renewable electricity (mainly hydropower).\n\n<b>RESULTS:</b> Norway became the first country where electric cars outnumber gasoline/diesel cars in new sales. In 2024 fully electric vehicles represented 88.9% of car sales.",
+  "screen_noruega_legenda": "Electric cars charging in Oslo\nCredit: Shutterstock\nID: 1056800483",
+
+  "screen_paisesBaixos_Subtitle": "<b>NETHERLANDS - Recovery of shallow lakes</b>",
+  "screen_paisesBaixos_imagePath": "Paises/paisesBaixos.png",
+  "screen_paisesBaixos_description": "<b>IMPLEMENTERS:</b> Environmental agencies, limnology institutes, and water resource managers in the Netherlands.\n\n<b>INTERVENTION:</b> Faced with increased phosphorus and nutrient loads from agriculture and urban sources, many shallow Dutch lakes entered eutrophication — marked by persistent turbidity, cyanobacterial blooms, and loss of aquatic plants. To reverse this, authorities implemented sustained external phosphorus load reductions followed by sediment-targeted measures. Ecological adjustments included reducing benthivorous fish density, reintroducing filtering zebra mussels, and restoring macrophyte beds — factors that reinforce a clear-water state.\n\n<b>RESULTS:</b> Long-term load reduction and ecological management led lakes like Veluwe to progress from a turbid state to intermediate and finally to a clear-water state since the mid-1990s. The case shows how long-term policy, monitoring, and regulation can transform eutrophic systems into ecological success stories.",
+  "screen_paisesBaixos_legenda": "Shoreline view of Lake Veluwe\nCredit: Shutterstock\nID: 2678303629",
+
+  "screen_dinamarca_Subtitle": "<b>DENMARK - Wind energy with community ownership</b>",
+  "screen_dinamarca_imagePath": "Paises/dinamarca.png",
+  "screen_dinamarca_description": "<b>IMPLEMENTERS:</b> Danish government, private renewable sector, and local communities involved in energy cooperatives.\n\n<b>INTERVENTION:</b> Since the 1970s oil crisis Denmark pursued a long-term strategy to reduce fossil fuel dependence and develop wind energy. The approach combined research investment, auctions, and incentives for onshore and offshore wind. Since 2009 legislation has required developers to offer at least 20% ownership to local residents, keeping benefits in communities and building social acceptance.\n\n<b>RESULTS:</b> Over half of Denmark's electricity now comes from wind and solar. A defining feature is strong citizen participation: since the 1980s local cooperatives have owned significant shares of wind parks, distributing economic benefits and social support.",
+  "screen_dinamarca_legenda": "Offshore wind farm in Denmark\nCredit: Shutterstock\nID: 1101570929",
+
+  "screen_marDoNorte_Subtitle": "<b>NORTH SEA - Recovery of fish stocks</b>",
+  "screen_marDoNorte_imagePath": "Paises/marDoNorte.png",
+  "screen_marDoNorte_description": "<b>IMPLEMENTERS:</b> European Commission, International Council for the Exploration of the Sea (ICES), and European research centers.\n\n<b>INTERVENTION:</b> After decades of overfishing that collapsed populations like cod and plaice, the EU reformed its Common Fisheries Policy and adopted Maximum Sustainable Yield (MSY) principles: catch limits that maintain reproducing stocks. This required temporary effort reductions and strict enforcement of quotas.\n\n<b>RESULTS:</b> MSY implementation reversed declines for several species, and more than 60% of stocks now sit at sustainable levels. While some species remain below safe thresholds due to historical overfishing and warming waters, the North Sea shows strong recovery signals, illustrating how science-based rules and enforcement can restore marine ecosystems.",
+  "screen_marDoNorte_legenda": "Fishing boat on the North Sea in Schleswig-Holstein, Germany\nCredit: Shutterstock\nID: 2201237537",
+
+  "screen_bangladesh_Subtitle": "<b>BANGLADESH - Responsible use of pharmaceuticals in aquaculture</b>",
+  "screen_bangladesh_imagePath": "Paises/bangladesh.png",
+  "screen_bangladesh_description": "<b>IMPLEMENTERS:</b> University of Exeter (UK) in partnership with Bangladesh Agricultural University.\n\n<b>INTERVENTION:</b> In the Mymensingh aquaculture region, the project mapped and analyzed the pharmaceutical and chemical inputs value chain to promote safer, more efficient, and responsible use. Activities included stakeholder interviews, literature reviews, mapping interventions in low- and middle-income countries, and participatory co-design workshops with attention to women's representation.\n\n<b>RESULTS:</b> The situational analysis revealed strong private-sector dominance and lack of independent advice for farmers. Workshops validated findings and shaped pilot interventions aimed at improving food safety, reducing environmental impacts, and increasing competitiveness.",
+  "screen_bangladesh_legenda": "Fishers in Mymensingh\nCredit: Shutterstock\nID: 2637614551",
+
+  "screen_china_Subtitle": "<b>CHINA - Global leadership in photovoltaic solar energy</b>",
+  "screen_china_imagePath": "Paises/china.png",
+  "screen_china_description": "<b>IMPLEMENTERS:</b> Chinese government, module manufacturers, and private renewable investors.\n\n<b>INTERVENTION:</b> China pursued an ambitious, multifaceted strategy to promote photovoltaic (PV) solar power at scale: auctions and subsidies for large plants, rooftop distribution programs, massive expansion of domestic manufacturing to capture economies of scale, and grid upgrades to absorb growing solar volumes. The country also reduced coal dependence and set records in solar generation in early 2025.\n\n<b>RESULTS:</b> By March 2025 China had about 946 GW of installed PV capacity, representing a large share of global capacity. The country accounted for over half of new global installations in 2024 and cut CO₂ emissions even as generation increased. China is both the largest market and dominant global supplier of PV modules and components.",
+  "screen_china_legenda": "Aerial view of a photovoltaic plant\nCredit: Shutterstock\nID: 2505807391",
+
+  "screen_indonesia_Subtitle": "<b>INDONESIA - Peatland fire control in tropical peatlands</b>",
+  "screen_indonesia_imagePath": "Paises/indonesia.png",
+  "screen_indonesia_description": "<b>IMPLEMENTERS:</b> Indonesian government with environmental NGOs, community fire brigades, and international research centers.\n\n<b>INTERVENTION:</b> In Indonesia's vast tropical peatlands, deforestation, drainage, and lowering of water tables made peat soils extremely flammable. Measures included restoring natural water levels, closing drainage canals, community fire patrols, monitoring extreme dryness indicators, and engaging communities in adaptation, prevention, and rapid response strategies.\n\n<b>RESULTS:</b> Hydrological restoration reduced the frequency and severity of major fires and associated CO₂ emissions. Community brigades strengthened landscape resilience and reduced population vulnerability to smoke and fire impacts.",
+  "screen_indonesia_legenda": "Farmers in peatlands in Indonesia\nCredit: Shutterstock\nID: 2654399835",
+
+  "screen_india_Subtitle": "<b>INDIA - Community groundwater management in Rajasthan</b>",
+  "screen_india_imagePath": "Paises/india.png",
+  "screen_india_description": "<b>IMPLEMENTER:</b> NGO Tarun Bharat Sangh (TBS).\n\n<b>INTERVENTION:</b> In Rajasthan, one of India's driest regions, groundwater overexploitation led to drought, biodiversity loss, and rural outmigration. Tarun Bharat Sangh initiated a community groundwater recharge program in the 1980s combining traditional governance and low-cost rainwater harvesting infrastructure — johads, ponds, and stone check dams built collectively by villages. Communities planned, built, and maintained water-capture systems, integrating local technical knowledge.\n\n<b>RESULTS:</b> Seasonal groundwater recharge triggered positive environmental and social regeneration cycles: irrigated agriculture returned, aquatic ecosystems recovered, incomes rose, and traditional water management councils were reactivated, strengthening local governance.",
+  "screen_india_legenda": "Women carrying water containers in Rajasthan\nCredit: Shutterstock\nID: 148052036",
+
+  "screen_uganda_Subtitle": "<b>UGANDA - Forest restoration and community carbon credits</b>",
+  "screen_uganda_imagePath": "Paises/uganda.png",
+  "screen_uganda_description": "<b>IMPLEMENTERS:</b> TIST (The International Small Group and Tree Planting Programme) with technical support from the University of Exeter (UK).\n\n<b>INTERVENTION:</b> For over 20 years the program has provided training, seedlings, and monitoring to help smallholders adopt regenerative agroforestry, planting trees alongside food crops. Trained technicians measure tree growth and collect data to generate certified carbon credits sold on international markets, returning income to farmers and creating a circular revenue model.\n\n<b>RESULTS:</b> Over 100,000 farmers across Uganda, Kenya, Tanzania, and India have joined TIST, which has planted more than 20 million trees. Trees sequester carbon and provide firewood, fodder, fruit, shade, and improved soils, boosting food security and livelihoods. Satellite studies show managed areas become visibly greener, with effects spreading beyond participating farms.",
+  "screen_uganda_legenda": "Farmers in Uganda\nCredit: Shutterstock\nID: 2115529154",
+
+  "screen_tanzania_Subtitle": "<b>TANZANIA - Community forest conservation</b>",
+  "screen_tanzania_imagePath": "Paises/tanzania.png",
+  "screen_tanzania_description": "<b>IMPLEMENTERS:</b> Tanzanian government and rural communities.\n\n<b>INTERVENTION:</b> Facing environmental degradation and biodiversity loss from hunting and deforestation, Tanzania launched a pioneering community-based conservation (CBC) model. The program devolved some authority over conservation areas, especially zones adjacent to national parks, to legally recognized community associations that manage wildlife, forests, and land use sustainably. Communities gained management rights and economic benefits from ecotourism, controlled hunting, and non-timber forest products, supported by technical training and participatory land-use planning.\n\n<b>RESULTS:</b> Decentralization and local empowerment improved wildlife and forest conservation, reduced illegal hunting, and strengthened governance. Community-managed areas expanded across tens of thousands of square kilometers, enhancing connectivity between national parks and creating stable income streams.",
+  "screen_tanzania_legenda": "Plains zebras in a national park in Tanzania\nCredit: Shutterstock\nID: 2505221583",
+
+  "screen_quenia_Subtitle": "<b>KENYA - Marine protected areas with shared governance</b>",
+  "screen_quenia_imagePath": "Paises/quenia.png",
+  "screen_quenia_description": "<b>IMPLEMENTERS:</b> Kenya Wildlife Service, Ministry of Tourism and Wildlife, and the Nairobi Convention.\n\n<b>INTERVENTION:</b> To halt declines in coral reefs, mangroves, and fish stocks, Kenya established Marine Protected Areas (MPAs) along its coast. Governance evolved to include shared models that involve communities in decisions on resource use, monitoring, and sustainable management. MPAs combine no-take zones with sustainable-use areas where low-impact activities like community tourism and artisanal fishing are permitted. Scientific monitoring informs adaptive management.\n\n<b>RESULTS:</b> MPAs show coral recovery, increased fish biomass, and return of key species, while communities benefit from improved incomes and food security. Kisite-Mpunguti MPA was recognized as a Blue Park for excellence in conservation and participatory management.",
+  "screen_quenia_legenda": "Sea turtle on coral reefs at Watamu Marine Park, Kenya\nCredit: Shutterstock\nID: 2079642421",
+
+  "screen_africaSubsariana_Subtitle": "<b>SUB-SAHARAN AFRICA - Off-grid solar in rural areas</b>",
+  "screen_africaSubsariana_imagePath": "Paises/africaSubsariana.png",
+  "screen_africaSubsariana_description": "<b>IMPLEMENTERS:</b> Multilateral banks, governments, companies, and NGOs.\n\n<b>INTERVENTION:</b> To bring electricity to rural areas without grid access, initiatives deployed off-grid solar solutions: home systems and community mini-grids powered by PV panels and batteries.\n\n<b>RESULTS:</b> Millions of rural households gained electricity, improving quality of life by reducing kerosene use, enabling evening study, charging phones, and supporting small businesses. Mini-grids also power cold storage for agricultural products, raising productivity and reducing post-harvest losses. Projections suggest off-grid solar could provide first-time electricity access to nearly 400 million people by 2030, largely in Sub-Saharan Africa.",
+  "screen_africaSubsariana_legenda": "Solar panels at a rural health center in Senegal\nCredit: Shutterstock\nID: 2393654307",
+
+  "screen_australia_Subtitle": "<b>AUSTRALIA - Residential solar program</b>",
+  "screen_australia_imagePath": "Paises/australia.png",
+  "screen_australia_description": "<b>IMPLEMENTER:</b> Clean Energy Regulator.\n\n<b>INTERVENTION:</b> To drive mass adoption of small-scale residential and commercial solar, Australia implemented the Small-scale Renewable Energy Scheme (SRES), which can reduce installation costs by up to 30% for PV systems, solar water heaters, or heat pumps. Complementary regional programs offer battery subsidies, green loans, and feed-in tariffs that encourage storage and export of surplus electricity.\n\n<b>RESULTS:</b> By November 2024 Australia surpassed 4 million rooftop solar installations — about one in three homes. In the first half of 2025 these systems supplied roughly 12.8% of national electricity. Households saved on average around AU$1,500 per year on energy bills.",
+  "screen_australia_legenda": "Technician installing solar panels on a roof\nCredit: Shutterstock\nID: 2499570271",
+
+  "screen_ilhasDoPacifico_Subtitle": "<b>PACIFIC ISLANDS - Community-managed marine conservation areas</b>",
+  "screen_ilhasDoPacifico_imagePath": "Paises/ilhasDoPacifico.png",
+  "screen_ilhasDoPacifico_description": "<b>IMPLEMENTERS:</b> LMMA Network with partners such as the Wildlife Conservation Society.\n\n<b>INTERVENTION:</b> Facing coastal ecosystem degradation, the LMMA network helps communities create and manage marine areas where locals set and enforce sustainable-use rules. The model blends traditional knowledge with modern monitoring, participatory zoning, protected areas, and community capacity building.\n\n<b>RESULTS:</b> In Fiji and other Pacific islands communities reported improved governance and biological monitoring, greater participation, and strengthened local stewardship. While challenges remain in measurement, funding, and effectiveness, LMMA provides an effective community-centered conservation pathway.",
+  "screen_ilhasDoPacifico_legenda": "Coral reef near Kadavu Island, Fiji\nCredit: Shutterstock\nID: 130721162",
+
   "continente_Africa": "AFRICA",
   "continente_Americas": "AMERICAS",
   "continente_Asia": "ASIA",

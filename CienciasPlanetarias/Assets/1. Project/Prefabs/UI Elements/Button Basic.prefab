@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 8.9605, y: -10.8806}
-  m_SizeDelta: {x: 28277.922, y: 14101.762}
+  m_SizeDelta: {x: 31177.922, y: 15551.762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &18091181755783866
 CanvasRenderer:
@@ -203,12 +203,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ASSISTIR
+  m_text: '<b>ASSISTIR
 
     AO VIDEO'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 79522e3eca6163c43adb5759464b25da, type: 2}
-  m_sharedMaterial: {fileID: -5467090898642655924, guid: 79522e3eca6163c43adb5759464b25da, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95f4700c55a6db64cb012d4abad47479, type: 2}
+  m_sharedMaterial: {fileID: 4850739462218572870, guid: 95f4700c55a6db64cb012d4abad47479, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
