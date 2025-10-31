@@ -5,6 +5,8 @@ using System.Globalization;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class CanvasScreenPais : CanvasScreen
 {
@@ -47,6 +49,10 @@ public class CanvasScreenPais : CanvasScreen
     [SerializeField] private TMP_Text subtitleText;
     [SerializeField] private TMP_Text descriptionText;
     [SerializeField] private TMP_Text legendText;
+    [SerializeField] private Image paisDispay;
+    // cache loaded sprites to avoid reloading from disk repeatedly
+    private readonly Dictionary<string, Sprite> countryImageCache = new Dictionary<string, Sprite>(StringComparer.OrdinalIgnoreCase);
+    private Coroutine imageLoadCoroutine;
     [SerializeField] private List<ContinentData> continents = new List<ContinentData>();
     [SerializeField] private string defaultCountryScreen;
 
@@ -230,6 +236,7 @@ public class CanvasScreenPais : CanvasScreen
     {
         UpdateBackgroundForCurrentCountry();
         UpdateTextsForCurrentCountry();
+        UpdateCountryImage();
     }
 
     private void UpdateBackgroundForCurrentCountry()
@@ -273,6 +280,158 @@ public class CanvasScreenPais : CanvasScreen
         {
             target.text = value ?? string.Empty;
         }
+    }
+
+    private void UpdateCountryImage()
+    {
+        if (paisDispay == null)
+        {
+            return;
+        }
+
+        if (string.IsNullOrEmpty(currentCountryScreen))
+        {
+            paisDispay.sprite = null;
+            return;
+        }
+
+        // If we already have the sprite cached, use it
+        if (countryImageCache.TryGetValue(currentCountryScreen, out var cachedSprite))
+        {
+            paisDispay.sprite = cachedSprite;
+            return;
+        }
+
+        // Start async load (cancels previous)
+        if (imageLoadCoroutine != null)
+        {
+            StopCoroutine(imageLoadCoroutine);
+            imageLoadCoroutine = null;
+        }
+
+        // Check localization for an explicit image path (e.g. "Paises/eua.png")
+        string localizedPath = null;
+        try
+        {
+            localizedPath = ResolveLocalizationValue("_imagePath");
+            if (!string.IsNullOrEmpty(localizedPath))
+            {
+                // If ResolveLocalizationValue returned the key itself (no manager), treat as empty
+                var manager = LocalizationManager.instance;
+                if (manager == null)
+                {
+                    localizedPath = null;
+                }
+            }
+        }
+        catch
+        {
+            localizedPath = null;
+        }
+
+        // normalize path separators and folder name casing
+        if (!string.IsNullOrEmpty(localizedPath))
+        {
+            localizedPath = localizedPath.Replace('\\', '/').TrimStart('/');
+            var parts = localizedPath.Split('/');
+            if (parts.Length > 1 && string.Equals(parts[0], "paises", StringComparison.OrdinalIgnoreCase))
+            {
+                parts[0] = "paises"; // ensure lowercase folder
+                localizedPath = string.Join("/", parts);
+            }
+        }
+
+        imageLoadCoroutine = StartCoroutine(LoadCountryImageCoroutine(currentCountryScreen, localizedPath));
+    }
+
+    private IEnumerator LoadCountryImageCoroutine(string countryKey, string localizedRelativePath = null)
+    {
+        // If there's an explicit localized path, try it first
+        if (!string.IsNullOrEmpty(localizedRelativePath))
+        {
+            var filePath = System.IO.Path.Combine(Application.streamingAssetsPath, localizedRelativePath);
+            string requestUrl = filePath;
+            if (!requestUrl.Contains("://")) requestUrl = "file://" + requestUrl;
+
+            using (var uwr = UnityWebRequestTexture.GetTexture(requestUrl))
+            {
+                yield return uwr.SendWebRequest();
+
+#if UNITY_2020_1_OR_NEWER
+                if (uwr.result == UnityWebRequest.Result.Success)
+#else
+                if (!uwr.isNetworkError && !uwr.isHttpError)
+#endif
+                {
+                    var tex = DownloadHandlerTexture.GetContent(uwr);
+                    if (tex != null)
+                    {
+                        tex.wrapMode = TextureWrapMode.Clamp;
+                        var sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100f);
+                        countryImageCache[countryKey] = sprite;
+
+                        if (paisDispay != null && currentCountryScreen == countryKey)
+                        {
+                            paisDispay.sprite = sprite;
+                        }
+
+                        imageLoadCoroutine = null;
+                        yield break;
+                    }
+                }
+            }
+        }
+
+        // Fall back to trying filenames based on the country key with common extensions
+        string[] exts = new[] { ".png", ".jpg", ".jpeg" };
+        foreach (var ext in exts)
+        {
+            var filePath = System.IO.Path.Combine(Application.streamingAssetsPath, "paises", countryKey + ext);
+            string requestUrl = filePath;
+            if (!requestUrl.Contains("://")) requestUrl = "file://" + requestUrl;
+
+            using (var uwr = UnityWebRequestTexture.GetTexture(requestUrl))
+            {
+                yield return uwr.SendWebRequest();
+
+#if UNITY_2020_1_OR_NEWER
+                if (uwr.result != UnityWebRequest.Result.Success)
+                {
+                    // try next extension
+                    continue;
+                }
+#else
+                if (uwr.isNetworkError || uwr.isHttpError)
+                {
+                    continue;
+                }
+#endif
+
+                var tex = DownloadHandlerTexture.GetContent(uwr);
+                if (tex != null)
+                {
+                    tex.wrapMode = TextureWrapMode.Clamp;
+                    var sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100f);
+                    countryImageCache[countryKey] = sprite;
+
+                    if (paisDispay != null && currentCountryScreen == countryKey)
+                    {
+                        paisDispay.sprite = sprite;
+                    }
+
+                    imageLoadCoroutine = null;
+                    yield break;
+                }
+            }
+        }
+
+        // not found, clear image
+        if (paisDispay != null && currentCountryScreen == countryKey)
+        {
+            paisDispay.sprite = null;
+        }
+
+        imageLoadCoroutine = null;
     }
 
     private string ResolveLocalizationValue(string suffix)
